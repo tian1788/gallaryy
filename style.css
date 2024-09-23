@@ -6,9 +6,9 @@
 }
 
 .box1, .box2, .box3{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
+    width: 13rem;
+    height: 18rem;
+    border-radius: 20%;
     border: 2px solid pink;
     
 }
@@ -21,29 +21,33 @@
 }
 
 .box1{
-    background-image: url(img2.jpeg);
+    background-image: url(b1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    
 
 }
 
 .box2{
-    background-image: url(img3.jpeg);
+    background-image: url(b7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
 }
 .box3{
-    background-image: url(img1.jpg);
+    background-image: url(b6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
 }
 
 .logo{
     background-image: url(logo.png);
     height: 100px;
-    width: 130%;
+    width: 100%;
     background-repeat: no-repeat;
     margin-left: -70px;
     margin-bottom: 1rem;
@@ -51,7 +55,7 @@
 }
 
 .front{
-    height: 25rem;
+    height: 45rem;
     width: 100%;
     border: 1px solid black;
     margin-top: 1rem;
@@ -71,4 +75,28 @@
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
+}
+
+.user > h6{
+    font-size: 2rem;
+    margin: 1rem 0 ;
+}
+
+.arrows {
+    position: absolute;
+    top: 43%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows > * {
+    border: 3px solid #fdfdfd;
+    background-color: rgba(0, 0, 0, 0.575);
+    height: 4rem;
+    width: 4rem;
+    font-size: 3rem;
+    color: white;
+    border-radius: .5rem;
+
 }
